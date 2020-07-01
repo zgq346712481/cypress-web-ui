@@ -1,6 +1,8 @@
-{"reporter": "junit",
-    "reporterOptions": {
-      "mochaFile": "results/my-test-output[hash].xml",   
-      "toConsole": true
-    }
+{
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output[hash].xml",
+    "toConsole": true
+  },
+  "projectId": "t3vthj"
 }
