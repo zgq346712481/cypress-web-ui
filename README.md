@@ -9,7 +9,9 @@ https://docs.cypress.io/zh-cn/guides/tooling/reporters.html#Report-per-spec
 ## 项目初始化
 
 zgq@zgq-PC:/media/zgq/data/code/github.com/cypress/cypress-crm-web$ npm init
+
 zgq@zgq-PC:/media/zgq/data/code/github.com/cypress/cypress-crm-web$ npm install cypress --save-dev
+
 zgq@zgq-PC:/media/zgq/data/code/github.com/cypress/cypress-crm-web$ ./node_modules/.bin/cypress open
 
 
