@@ -43,6 +43,13 @@ zgq@zgq-PC:/media/zgq/data/code/github.com/cypress/cypress-crm-web$ ./node_modul
     "json": true
 }
 
+### package.json　配置
+可以将打开cypress的命令写在package.json文件中，以后打开cypress直接运行：npm run cypress:open即可
+
+"scripts": {
+  "cypress:open": "node_modules/.bin/cypress open"
+}   
+
 
 ## vscode编写用例
 
@@ -90,6 +97,10 @@ should 断言，hava.value 是元素的value属性值，判断是否为‘Cypres
 clear 清空文本
 should 继续断言，文本框内容为空字符串
 
+## 在 GitLab CI 中运行基于 Cypress 的 e2e 测试
 
 
+## 设计模式　page object
 
+## Application actions 
+ https://splinter.readthedocs.io/en/0.1.1/
