@@ -1,4 +1,4 @@
-import signUpPage from './weiboSignUpPage'
+import signUpPage from '/media/zgq/data/code/github.com/cypress/cypress-web-ui/cypress/integration/pageobject/pages/weiboSignUpPage'
 
 describe('weibo sign up test', () => {
     beforeEach('visit sign up page of weibo', () => {
